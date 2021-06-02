@@ -1,0 +1,43 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-springquestpoc-staging-223319-authRole",
+      "UnauthRoleArn": "arn:aws:iam::529724129355:role/amplify-springquestpoc-staging-223319-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::529724129355:role/amplify-springquestpoc-staging-223319-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-springquestpoc-staging-223319-deployment",
+      "UnauthRoleName": "amplify-springquestpoc-staging-223319-unauthRole",
+      "StackName": "amplify-springquestpoc-staging-223319",
+      "StackId": "arn:aws:cloudformation:us-east-1:529724129355:stack/amplify-springquestpoc-staging-223319/88433560-c3f2-11eb-b573-122ea9c7f0ef",
+      "AmplifyAppId": "d1ziugcikxrfg1"
+    },
+    "nonCFNdata": {
+      "function": {
+        "pocHelloWorld": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "poBpOtRF9D8a1+mMZiXTG9yxrYtlndwuMEl5VhIzZMQ="
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "function": {
+        "pocHelloWorld": {
+          "deploymentBucketName": "amplify-springquestpoc-staging-223319-deployment",
+          "s3Key": "amplify-builds/pocHelloWorld-build.zip"
+        },
+        "springquestpoc51b4dafe": {
+          "deploymentBucketName": "amplify-springquestpoc-staging-223319-deployment",
+          "s3Key": "amplify-builds/springquestpoc51b4dafe-636655374c7964685672-build.zip"
+        }
+      }
+    }
+  }
+}

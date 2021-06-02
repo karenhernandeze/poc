@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/hw",
+      "lambdaFunction": "springquestpoc51b4dafe",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/hw"
+    }
+  ],
+  "resourceName": "helloWorld",
+  "apiName": "helloWorld",
+  "functionArns": [
+    {
+      "lambdaFunction": "springquestpoc51b4dafe"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-springquestpoc-staging-223319-authRole",
+    "unAuthRoleName": "amplify-springquestpoc-staging-223319-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "springquestpoc51b4dafe",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
