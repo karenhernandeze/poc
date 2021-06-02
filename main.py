@@ -72,7 +72,7 @@ async def shutdown():
     await database.disconnect()
 
 
-@app.get("/", response_model=List[Note])
+@app.get("/")
 async def read_notes():
     return "HELLO WORLD"
     # query = notes.select()
